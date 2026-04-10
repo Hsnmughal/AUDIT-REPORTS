@@ -1,0 +1,43 @@
+# Environment and secrets
+.env
+.env.*
+*.key
+*.pem
+*.secret
+
+# Foundry / Forge
+out/
+cache/
+broadcast/
+
+# Hardhat
+artifacts/
+cache_hardhat/
+typechain/
+typechain-types/
+
+# Node
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Logs
+*.log
